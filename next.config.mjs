@@ -11,10 +11,10 @@ const nextConfig = {
       },
 
       // This Allows All Websites
-      // {
-      //   protocol: "https",
-      //   hostname: "**",
-      // },
+      {
+        protocol: "https",
+        hostname: "**",
+      },
     ],
   },
 };

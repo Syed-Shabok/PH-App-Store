@@ -1,11 +1,14 @@
+import Banner from "@/components/homepage/Banner";
+import Stats from "@/components/homepage/Stats";
+import TrendingApps from "@/components/homepage/TrendingApps";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
-      <h1 className="text-blue-500 bg-blue-50 font-bold text-5xl h-screen flex items-center justify-center">
-        Home Page
-      </h1>
+      <Banner />
+      <Stats />
+      <TrendingApps from="homePage" />
     </div>
   );
 }

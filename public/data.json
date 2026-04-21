@@ -1,0 +1,165 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp LLC",
+    "id": 1,
+    "description": "WhatsApp Messenger is a free messaging app available for Android and other smartphones. WhatsApp uses your phone's Internet connection to let you message and call friends and family. Switch from SMS to WhatsApp to send and receive messages, calls, photos, videos, documents, and voice messages. Stay connected with people no matter where they are, safely and securely with end-to-end encryption.",
+    "size": 80,
+    "reviews": "172000K",
+    "ratingAvg": 4.5,
+    "downloads": "5000M",
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 2400000 },
+      { "name": "3 star", "count": 8400000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 136000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg",
+    "title": "Spotify: Music and Podcasts",
+    "companyName": "Spotify AB",
+    "id": 2,
+    "description": "Spotify gives you instant access to millions of songs, albums, and podcasts from artists all over the world. Stream your favorite tracks, discover new music, and build playlists with ease.",
+    "size": 110,
+    "reviews": "32000K",
+    "ratingAvg": 4.4,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 1800000 },
+      { "name": "3 star", "count": 4200000 },
+      { "name": "4 star", "count": 9800000 },
+      { "name": "5 star", "count": 14900000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
+    "title": "Instagram",
+    "companyName": "Instagram",
+    "id": 3,
+    "description": "Instagram brings you closer to the people and things you love. Share photos, videos, and explore content worldwide.",
+    "size": 130,
+    "reviews": "160000K",
+    "ratingAvg": 4.2,
+    "downloads": "5000M",
+    "ratings": [
+      { "name": "1 star", "count": 8000000 },
+      { "name": "2 star", "count": 10000000 },
+      { "name": "3 star", "count": 22000000 },
+      { "name": "4 star", "count": 45000000 },
+      { "name": "5 star", "count": 75000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg",
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "id": 4,
+    "description": "TikTok is the destination for mobile videos. Create and share short videos with the world.",
+    "size": 180,
+    "reviews": "45000K",
+    "ratingAvg": 4.4,
+    "downloads": "3000M",
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 5000000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 13000000 },
+      { "name": "5 star", "count": 17000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/en/c/c4/Snapchat_logo.svg",
+    "title": "Snapchat",
+    "companyName": "Snap Inc",
+    "id": 5,
+    "description": "Snapchat lets you communicate with friends using disappearing messages and fun filters.",
+    "size": 95,
+    "reviews": "28000K",
+    "ratingAvg": 4.3,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 1700000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 8800000 },
+      { "name": "5 star", "count": 12300000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 6,
+    "description": "Watch and share videos from creators worldwide on YouTube.",
+    "size": 140,
+    "reviews": "145000K",
+    "ratingAvg": 4.5,
+    "downloads": "10000M",
+    "ratings": [
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 7000000 },
+      { "name": "3 star", "count": 13000000 },
+      { "name": "4 star", "count": 42000000 },
+      { "name": "5 star", "count": 79000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 7,
+    "description": "Telegram is a fast, secure messaging app with cloud-based features.",
+    "size": 75,
+    "reviews": "22000K",
+    "ratingAvg": 4.6,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 1800000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 14600000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 8,
+    "description": "Stream movies and TV shows with Netflix anytime, anywhere.",
+    "size": 150,
+    "reviews": "25000K",
+    "ratingAvg": 4.3,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 1900000 },
+      { "name": "3 star", "count": 4200000 },
+      { "name": "4 star", "count": 8800000 },
+      { "name": "5 star", "count": 9800000 }
+    ]
+  },
+
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg",
+    "title": "Twitter (X)",
+    "companyName": "X Corp.",
+    "id": 10,
+    "description": "Follow news, trends, and conversations in real-time.",
+    "size": 85,
+    "reviews": "30000K",
+    "ratingAvg": 4.0,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 2200000 },
+      { "name": "2 star", "count": 3400000 },
+      { "name": "3 star", "count": 4200000 },
+      { "name": "4 star", "count": 7200000 },
+      { "name": "5 star", "count": 13000000 }
+    ]
+  }
+]
