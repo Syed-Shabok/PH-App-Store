@@ -1,6 +1,6 @@
 "use client";
 
-import InstalledAppsProvider from "@/InstalledAppsProvider";
+import InstalledAppsProvider from "@/context/InstalledAppsProvider";
 
 const Providers = ({ children }) => {
   return <InstalledAppsProvider>{children}</InstalledAppsProvider>;

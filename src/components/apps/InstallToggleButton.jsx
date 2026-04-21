@@ -1,24 +1,31 @@
 "use client";
 
-import { InstallAppsContext } from "@/InstalledAppsProvider";
+import { InstallAppsContext } from "@/context/InstalledAppsProvider";
 import { useContext } from "react";
+import { toast } from "react-toastify";
 
 const InstallToggleButton = ({ app }) => {
   const { installedApps, setInstalledApps } = useContext(InstallAppsContext);
 
-  console.log(installedApps);
+  const isInstalled = installedApps.find((a) => a.id === app.id);
+
+  // console.log(installedApps);
 
   const handleInstall = () => {
-    if (installedApps.includes(app)) {
-      alert("Already Installed.");
+    if (installedApps.some((a) => a.id === app.id)) {
+      toast.error("App is Already Installed.");
       return;
     }
     setInstalledApps([...installedApps, app]);
-    alert("App Installed.");
+    toast.success("App Successfully Installed.");
   };
 
   return (
-    <button onClick={handleInstall} className="btn btn-primary">
+    <button
+      disabled={isInstalled ? true : false}
+      onClick={handleInstall}
+      className="btn btn-primary"
+    >
       Install
     </button>
   );

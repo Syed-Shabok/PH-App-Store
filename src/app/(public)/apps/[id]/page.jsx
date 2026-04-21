@@ -1,10 +1,28 @@
 import InstallToggleButton from "@/components/apps/InstallToggleButton";
 import Image from "next/image";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import { FaBuilding, FaDownload, FaStar } from "react-icons/fa";
 
-export const metadata = {
-  title: "App Details | PH-App-Store",
+// export const metadata = {
+//   title: "App Details | PH-App-Store",
+// };
+
+export const generateMetadata = async ({ params }) => {
+  const { id } = await params;
+  const apps = await appsPromise();
+  const app = apps.find((app) => app.id === Number(id));
+
+  if (!app) {
+    return {
+      title: `Not Found | PH Play Store`,
+    };
+  }
+
+  return {
+    title: `${app.title} | PH Play Store`,
+    description: app.description,
+  };
 };
 
 const appsPromise = async () => {
@@ -22,6 +40,10 @@ const AppsDetails = async ({ params }) => {
 
   const app = apps.find((app) => app.id === Number(id));
   // console.log(app);
+
+  if (!app) {
+    notFound();
+  }
 
   let totalRatings = 0;
   app.ratings.forEach((rating) => (totalRatings += rating.count));
